@@ -1,0 +1,116 @@
+
+body
+{
+    background-image: url(images/cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px auto;
+}
+
+#welcome1
+{
+  display:flex; 
+  align-items:center;
+  justify-content:center;
+}
+
+#welcome2
+{   
+    margin: 0px;
+    font-size: 70px;
+    font-family: 微軟正黑體;
+    color: greenyellow;
+    text-align: center;
+}
+
+#welcome3
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border: 1px #f6bb9e;
+  font-size: 50px;
+  color: aqua
+}
+
+table
+{  
+  display:flex; 
+  align-items:center;
+  justify-content:center;
+  border: 1px #f6bb9e;
+  font-size: 40px;
+  color:yellow; 
+}
+
+td
+{
+    font-family: 微軟正黑體;
+    border: 1px double #f6bb9e;
+}
+
+#btn1
+{
+    text-align: center;
+}
+
+input[type=radio]
+{
+    height: 0.7em;
+    width: 0.7em;
+}
+
+input[type=checkbox]
+{
+    height: 0.7em;
+    width: 0.7em;
+}
+
+input[type=file]
+{
+    font-size: 38px; 
+}
+
+.radius,textarea
+{
+    border-radius:15px;
+     font-size: 38px; 
+}
+
+input
+{
+    font-size: 38px; 
+}
+
+.btn2
+{
+    width:200px;
+    margin: 0 10px;
+    padding: 5px;
+    font-family: 微軟正黑體;
+}
+
+.btn2:hover 
+{
+    opacity: 0.7;
+}
+
+.btn2:active
+{
+    color: brown;
+}
+
+.btn2
+{
+    background-color: antiquewhite;
+}
+
+label,
+input[type="radio"],
+input[type="checkbox"],
+input[type="reset"],
+input[type="submit"]
+{
+    cursor: pointer;
+}
